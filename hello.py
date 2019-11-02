@@ -12,7 +12,6 @@ def greet(who_to_gret):
     greeting = 'Hello, {}'.format(who_to_gret)
     return greeting
 
-
 print(greet('World'))
 print(greet('Corey'))
 r = requests.get("http://www.google.com")
